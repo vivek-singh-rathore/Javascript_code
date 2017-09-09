@@ -4,7 +4,7 @@ var amp;
 var volarr=[];
 function preload(){
 
-	song=loadSound("/Users/hp/Desktop/music/kyoto.mp3");
+	song=loadSound("sound/sound.mp3");
 }
 
 function setup(){
