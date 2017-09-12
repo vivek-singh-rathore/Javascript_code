@@ -8,7 +8,7 @@ function f(){
 var file=document.getElementById('myfile');
 var filename= file.value;
 filename=filename.replace(/.*[\/\\]/, '');
-var str1="music/";
+var str1="sound/";
 path=str1.concat(filename);
 console.log(path);
 if(song!=null)
